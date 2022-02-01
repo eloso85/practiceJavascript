@@ -200,3 +200,38 @@ function range(guess) {
 //range(401);
 
 //20
+
+function posOrNeg(int) {
+  number = Math.sign(int);
+  if (number == 1) {
+    console.log("postive");
+  } else if (number == -1) {
+    console.log("negative");
+  } else if (number == 0) {
+    console.log("its Zero");
+  }
+}
+posOrNeg(-25);
+
+function two(a, b) {
+  let x = Math.sign(a);
+  let y = Math.sign(b);
+  x == 1 && y == -1 ? console.log("true") : console.log("false");
+}
+
+two(-1, 1);
+
+//21
+
+function stringReplace(str) {
+  let text1 = String(str);
+  let text2 = "py";
+  let text3 = text2.concat("", text1);
+  text1.substring(0, 2) === text2
+    ? console.log(text1.slice(2))
+    : console.log(text3);
+  //   console.log(text3);
+  //   console.log(text1.substring(0, 2));
+}
+stringReplace("thon");
+stringReplace("python");
