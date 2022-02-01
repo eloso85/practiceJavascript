@@ -170,3 +170,33 @@ function sumOfTwo(a, b) {
 }
 
 sumOfTwo(2, 2);
+
+18;
+
+function checkTwo(a, b) {
+  let checkTwo = a + b;
+  if (a === 50 || b === 50 || checkTwo === 50) {
+    //console.log("true");
+  } else {
+    //console.log("false");
+  }
+}
+
+//checkTwo(25, 25);
+
+function range(guess) {
+  var ans = [];
+  for (let i = 20; i <= 400; i++) {
+    ans.push(i);
+  }
+  console.log(ans);
+  if (ans.includes(guess)) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+
+//range(401);
+
+//20
